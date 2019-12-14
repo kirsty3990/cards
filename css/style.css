@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css?family=Abel|Open+Sans&display=swap");
+@import url("components/card.css");
+
+
+.container{
+	margin: 30px auto;
+	width: 700px;
+	text-align: center;
+}
+
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+
+#margin {
+	    margin-bottom: 44px;
+}

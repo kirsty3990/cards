@@ -1,0 +1,70 @@
+.card-category {
+	background-image: linear-gradient(-225deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.1) 33%), url("../../img/breakfast.jpeg");
+	width: 400px;
+	height: 0px;
+	padding: 150px;
+	text-align: center;
+	color: white;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+	border-radius: 6px;
+	display: flex;
+  	justify-content: center;
+  	height: 100%;
+}
+
+.card-product{
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+	padding: 20px;
+	margin: 15px 0px;
+	display: flex;
+    align-items: center;
+    border-radius: 6px;
+    text-align: left;
+}
+
+.card-product img{
+	height:100px;
+	width: 100px;
+}
+
+.card-product div{
+	margin-left: 15px;
+}
+
+.card-trip {
+	height: 300px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+	margin: 15px 0px;3
+    border-radius: 6px;
+    text-align: left;
+
+}
+
+#avatar {
+	height: 82px;
+	width: 80px;
+	border-radius: 50%;
+	position:relative;
+	top: -30px;
+}
+
+#price {
+	position:relative;
+	top: -10px;
+}
+
+.card-trip .info {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: white;
+	height: 125px;
+	border-radius: 6px;
+	padding:10px;
+}
+
+#rome {
+	height: 175px;
+	width: 100%;
+	border-radius: 6px;
+}
